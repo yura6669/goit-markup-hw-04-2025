@@ -1,0 +1,284 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Raleway' sans-serif;
+  background-color: #ffffff;
+  color: #434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.header-container {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #e7e9fc;
+  display: flex;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.1666;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  color: #2e2f42;
+  margin-right: 76px;
+}
+
+.logo span {
+  color: #4d5ae5;
+}
+
+.navigation {
+  margin-right: auto;
+}
+
+.menu-items {
+  display: flex;
+  column-gap: 40px;
+}
+
+.contacts-items {
+  display: flex;
+  column-gap: 40px;
+}
+
+.menu-item-link {
+  font-weight: 500;
+  color: #2e2f42;
+}
+
+.contacts-item-link {
+  font-weight: 400;
+  color: #434455;
+}
+
+.menu-item-link:hover,
+.menu-item-link:focus,
+.contacts-item-link:hover,
+.contacts-item-link:focus {
+  color: #404bbf;
+}
+
+.hero {
+  background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  line-height: 1.07;
+  max-width: 496px;
+  margin: 0 auto;
+}
+
+.hero-btn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 48px;
+  min-width: 169px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  letter-spacing: 4%;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 16px 32px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #404bbf;
+}
+
+.advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.advantages-items {
+  display: flex;
+  /* justify-content: space-between; */
+  column-gap: 24px;
+}
+
+.advantages-item {
+  width: calc((100% - (24px * 3)) / 4);
+}
+
+.advantages-title {
+  margin-bottom: 8px;
+}
+
+.team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: #f4f4fd;
+}
+
+.team-title {
+  margin-bottom: 72px;
+}
+
+.team-items {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.team-item {
+  width: calc((100% - 72px) / 4);
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-item-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.team-item-descr {
+  padding: 32px 16px;
+}
+
+.team-item-title {
+  margin-bottom: 8px;
+}
+
+.second-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.111;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-title {
+  margin-bottom: 72px;
+}
+
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-item {
+  width: calc((100% - (24px * 2)) / 3);
+  background-color: #fff;
+}
+
+.portfolio-item-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.portfolio-item-descr {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.portfolio-item-title {
+  margin-bottom: 8px;
+}
+
+.hive {
+  display: none;
+}
+
+.third-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.paragraph {
+  font-size: 16px;
+  color: #434455;
+}
+
+.center {
+  text-align: center;
+}
+
+.footer {
+  background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-text-logo {
+  color: #f4f4fd;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  color: #e7e9fc;
+  width: 264px;
+}
